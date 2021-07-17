@@ -4,7 +4,7 @@ const key = 't2XQ6qT7CadYmq6PLWDM1k7Vik6MJA51p32wYnUd';
 const card = document.querySelector('.card');
 const cardBody = document.querySelector('.card-body');
 
-const divex = document.querySelector('.content');
+const divex = document.querySelector('.content-card');
 
 fetch(`${baseURL}?api_key=${key}`)
     .then(response => response.json())
